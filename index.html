@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Style.css"></link>
+    <title>Document</title>
+  </head>
+  <body>
+      <div id="dropdown">
+    <label for="json">Choose any</label>
+    <select id="json" name="cars" style="height:30px;width: 200px;">
+      <option value="active">Active</option>
+      <option value="retired">Retired</option>
+      <option value="unknown">unknown</option>
+      <option value="destroyed">Destroyed</option>
+    </select>
+    <button id="load">LOAD</button>
+</div>
+    <section>
+        <table>
+            <thead>
+                 <tr>
+                  
+                <th>Capsule Id</th>
+                <th>No of Missions</th>
+                <th>Details</th>
+            </tr>
+            </thead>
+           <tbody id="table">
+
+           </tbody>
+
+        </table>
+    </section>
+    <script src="./fetchTable.js"></script>
+  </body>
+</html>
