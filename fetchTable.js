@@ -27,8 +27,3 @@ Load.addEventListener("click", async (e) => {
      table_section.innerHTML = output;
 } )
 
-let fetchData = async () => {
-    
-   
-}
-fetchData()
